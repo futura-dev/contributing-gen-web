@@ -57,6 +57,7 @@
     "url": "https://github.com/futura-dev",
     "email": "info@futura-dev.com"
   },
+  "homepage": "https://futura-dev.github.io/contributing-gen-web",
   "license": "MIT",
   "browserslist": [
     "> 1%",

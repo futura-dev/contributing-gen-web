@@ -1,7 +1,7 @@
 # Welcome to contributing-gen-web
-This is the Web Frontend of [contributing-gen](https://github.com/bttger/contributing-gen) - The guideline to communicate how people should contribute to your project. It is made with Vue.js and serves as a simple client-only configurator to generate a `CONTRIBUTING.md` and a `CODE_OF_CONDUCT.md`.
+This is the Web Frontend of [contributing-gen](https://github.com/futura-dev/contributing-gen) - The guideline to communicate how people should contribute to your project. It is made with Vue.js and serves as a simple client-only configurator to generate a `CONTRIBUTING.md` and a `CODE_OF_CONDUCT.md`.
 
-**Encourage people to contribute to your project with your own contribution guide. [Generate it here!](https://bttger.github.io/contributing-gen-web/)**
+**Encourage people to contribute to your project with your own contribution guide. [Generate it here!](https://futura-dev.github.io/contributing-gen-web/)**
 
 ## Contribute
 
@@ -10,7 +10,7 @@ We are happy if you have a little time and can help the project. You can either 
 ### Setting up this Vue.js project
 Run the following commands in your terminal.
 ```
-git clone git@github.com:bttger/contributing-gen-web.git
+git clone git@github.com:futura-dev/contributing-gen-web.git
 cd contributing-gen-web
 npm install
 ```

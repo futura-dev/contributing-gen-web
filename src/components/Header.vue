@@ -12,7 +12,7 @@
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-item href="https://github.com/bttger/contributing-gen-web">
+          <b-nav-item href="https://github.com/futura-dev/contributing-gen-web">
             <img
               id="github-logo"
               src="../assets/GitHub-Mark-64px.png"
