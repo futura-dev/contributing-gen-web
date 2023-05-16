@@ -20,9 +20,9 @@ import Header from "./components/Header.vue";
 import Configurator from "./components/Configurator.vue";
 import MarkdownOutput from "./components/MarkdownOutput.vue";
 
-import { ContributingGen } from "contributing-gen"
-import contributingTemplate from "raw-loader!contributing-gen/templates/contributing.dot";
-import codeOfConductTemplate from "raw-loader!contributing-gen/templates/codeOfConduct.dot";
+import { ContributingGen } from "@futura-dev/contributing-gen"
+import contributingTemplate from "raw-loader!@futura-dev/contributing-gen/templates/contributing.dot";
+import codeOfConductTemplate from "raw-loader!@futura-dev/contributing-gen/templates/codeOfConduct.dot";
 import welcomeMessage from "raw-loader!./assets/welcomeMessage.md";
 
 export default {
