@@ -23,6 +23,8 @@ import MarkdownOutput from "./components/MarkdownOutput.vue";
 import { ContributingGen } from "@futura-dev/contributing-gen"
 import contributingTemplate from "raw-loader!@futura-dev/contributing-gen/templates/contributing.dot";
 import codeOfConductTemplate from "raw-loader!@futura-dev/contributing-gen/templates/codeOfConduct.dot";
+import licenseTemplate from "raw-loader!@futura-dev/contributing-gen/templates/license.dot";
+import readmeTemplate from "raw-loader!@futura-dev/contributing-gen/templates/readme.dot";
 import welcomeMessage from "raw-loader!./assets/welcomeMessage.md";
 
 export default {
@@ -34,7 +36,7 @@ export default {
   },
   data() {
     return {
-      contributingGen: new ContributingGen(contributingTemplate, codeOfConductTemplate),
+      contributingGen: new ContributingGen(contributingTemplate, codeOfConductTemplate, licenseTemplate, readmeTemplate),
       markdownOutput: [
         {
           title: "Welcome",
@@ -71,6 +73,20 @@ export default {
           let markdown = this.contributingGen.generateCodeOfConduct(specs);
           this.markdownOutput.push({
             title: "CODE_OF_CONDUCT.md",
+            markdown: markdown
+          });
+        }
+        if (specs.license.generate) {
+          let markdown = this.contributingGen.generateLicense(specs);
+          this.markdownOutput.push({
+            title: "LICENSE.md",
+            markdown: markdown
+          });
+        }
+        if (specs.readme.generate) {
+          let markdown = this.contributingGen.generateReadme(specs);
+          this.markdownOutput.push({
+            title: "README.md",
             markdown: markdown
           });
         }

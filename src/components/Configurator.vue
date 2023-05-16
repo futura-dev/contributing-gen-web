@@ -67,7 +67,26 @@
       v-model="specs.codeOfConduct.enforcementGuidelines"
       :disabled="!specs.codeOfConduct.generate"
     />
-  </div>
+
+    <div class="d-flex">
+      <h5>LICENSE.md</h5>
+    </div>
+    <InputSwitch
+      label="Generate"
+      tooltip="Should the LICENSE.md file be generated?"
+      v-model="specs.license.generate"
+    />
+
+    <div class="d-flex">
+      <h5>README.md</h5>
+    </div>
+    <InputSwitch
+      label="Generate"
+      tooltip="Should the README.md file be generated?"
+      v-model="specs.readme.generate"
+    />
+</div>
+  
 </template>
 
 <script>
@@ -112,6 +131,12 @@ export default {
           generate: true,
           enforcementEmail: "",
           enforcementGuidelines: false
+        },
+        license: {
+          generate: true,
+        },
+        readme: {
+          generate: true,
         }
       },
       projectSlugManuallyChanged: false,
