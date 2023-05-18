@@ -111,3 +111,6 @@ dist
 
 # IntelliJ IDEA
 .idea
+
+# cosmodrome
+.cosmodrome.json
