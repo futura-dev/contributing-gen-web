@@ -21,10 +21,10 @@ import Configurator from "./components/Configurator.vue";
 import MarkdownOutput from "./components/MarkdownOutput.vue";
 
 import { ContributingGen } from "@futura-dev/contributing-gen"
-import contributingTemplate from "raw-loader!@futura-dev/contributing-gen/templates/contributing.dot";
-import codeOfConductTemplate from "raw-loader!@futura-dev/contributing-gen/templates/codeOfConduct.dot";
-import licenseTemplate from "raw-loader!@futura-dev/contributing-gen/templates/license.dot";
-import readmeTemplate from "raw-loader!@futura-dev/contributing-gen/templates/readme.dot";
+import contributingTemplate from "raw-loader!@futura-dev/contributing-gen/dist/templates/contributing.dot";
+import codeOfConductTemplate from "raw-loader!@futura-dev/contributing-gen/dist/templates/codeOfConduct.dot";
+import licenseTemplate from "raw-loader!@futura-dev/contributing-gen/dist/templates/license.dot";
+import readmeTemplate from "raw-loader!@futura-dev/contributing-gen/dist/templates/readme.dot";
 import welcomeMessage from "raw-loader!./assets/welcomeMessage.md";
 
 export default {
