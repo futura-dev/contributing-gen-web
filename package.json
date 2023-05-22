@@ -17,7 +17,7 @@
     "vue-markdown": "^2.2.4"
   },
   "devDependencies": {
-    "@futura-dev/contributing-gen": "^2.0.6",
+    "@futura-dev/contributing-gen": "^2.0.9",
     "@futura-dev/cosmodrome": "^1.1.5",
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-eslint": "~4.4.0",

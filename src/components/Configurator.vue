@@ -76,7 +76,8 @@ export default {
           slug: "",
           defaultBranch: "",
           repoUrl: "",
-          docsUrl: ""
+          docsUrl: "",
+          monorepo: false
         },
         contributing: {
           generate: true,
